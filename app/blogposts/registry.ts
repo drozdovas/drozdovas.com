@@ -4,7 +4,6 @@ import { nextjsDeployment } from './posts/0-nextjs-deployment';
 import { BlogPost } from './types';
 
 export const blogPosts: BlogPost[] = [
-  nextjsDeployment,
   aComfortableLife,
 ];
 
