@@ -13,7 +13,7 @@ export const nextjsDeployment: BlogPost = {
       <div className="prose prose-invert max-w-none">
         <p className="text-xl text-gray-300 leading-relaxed">
           Docker has become the industry standard for deploying applications, and Next.js works beautifully with it.
-          In this guide, we'll walk through the entire process of containerizing and deploying your Next.js application.
+          In this guide, we&apos;ll walk through the entire process of containerizing and deploying your Next.js application.
         </p>
       </div>
 
