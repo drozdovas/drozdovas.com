@@ -1,10 +1,15 @@
 version: '3.8'
 
 services:
-  portfolio:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  website:
+    image: ghcr.io/drozdovas/drozdovas.com:latest
+    container_name: drozdovas-website
+    restart: unless-stopped
     ports:
       - "3000:3000"
-    restart: unless-stopped
+    networks:
+      - web
+
+networks:
+  web:
+    name: web
